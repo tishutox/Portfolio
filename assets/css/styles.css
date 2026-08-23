@@ -487,6 +487,10 @@ main {
 	background: var(--line-dark);
 }
 
+.imprint-modal-content .cookie-modal-rule {
+	margin-bottom: 13px;
+}
+
 .cookie-modal-notice {
 	display: flex;
 	align-items: flex-start;
@@ -517,6 +521,10 @@ main {
 .cookie-modal-section {
 	padding-top: 22px;
 	border-top: 1px solid var(--line-dark);
+}
+
+.imprint-modal-content .cookie-modal-section:first-of-type {
+	padding-top: 11px;
 }
 
 .cookie-modal-section h3 {
