@@ -55,8 +55,8 @@ const translations = {
 			storyTitle: "UNSERE GESCHICHTE",
 			storyText: "Rayven ist das eSports-Team der Technischen Hochschule Augsburg. Entstanden im Fachschaftsraum der TH, hat sich aus gemeinsamen Trainingssessions eine Gemeinschaft entwickelt, die für Präzision, Haltung und einen klaren visuellen Ausdruck steht.",
 			storyText2: "Jedes Mitglied bringt seine eigene Geschichte mit – vom ersten Ranked-Match bis zum Turnier im Namen der TH Augsburg. Was uns verbindet, ist der Anspruch, gemeinsam über uns hinauszuwachsen.",
-			photoCaption1: "Valorant",
-			photoCaption2: "League",
+			photoCaption1: "CS2",
+			photoCaption2: "Dota 2",
 			valuesTitle: "WORAN WIR GLAUBEN",
 			value1Title: "PHILOSOPHIE",
 			value1Text: "Klarheit vor Lautstärke. Wir lassen unsere Leistung und unser Auftreten sprechen.",
@@ -124,8 +124,8 @@ const translations = {
 			storyTitle: "OUR STORY",
 			storyText: "Rayven is the esports team of TH Augsburg. Born in the student council room of the university, small training sessions grew into a community that now stands for precision, posture, and a clear visual voice.",
 			storyText2: "Every member brings their own story, from their first ranked match to tournaments played in the name of TH Augsburg. What connects us is the ambition to grow beyond ourselves, together.",
-			photoCaption1: "Valorant",
-			photoCaption2: "League",
+			photoCaption1: "CS2",
+			photoCaption2: "Dota 2",
 			valuesTitle: "WHAT WE BELIEVE IN",
 			value1Title: "PHILOSOPHY",
 			value1Text: "Clarity over volume. We let our performance and our presence speak.",
@@ -137,73 +137,73 @@ const translations = {
 			ctaText: "Whether as a player, partner, or fan, we would love to hear from you."
 		}
 	},
-	jp: {
+	ru: {
 		nav: {
-			home: "ホーム",
-			about: "概要",
-			team: "ゲーム",
-			events: "イベント",
-			form: "フォーム"
+			home: "ГЛАВНАЯ",
+			about: "О НАС",
+			team: "ИГРЫ",
+			events: "СОБЫТИЯ",
+			form: "ФОРМА"
 		},
 		labels: {
-			language: "言語"
+			language: "ЯЗЫК"
 		},
 		hero: {
-			motto: "立ち上がれ",
+			motto: "ВОССТАНЬ",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
-			copy: "競技への集中、明確なアイデンティティ、そして声を張らずとも存在感を放つチームのための舞台。",
-			cta: "詳しく見る"
+			copy: "Соревновательный фокус, ясная идентичность и сцена для команды, которой не нужно кричать, чтобы выделяться.",
+			cta: "УЗНАТЬ БОЛЬШЕ"
 		},
 		footer: {
-			socials: "ソーシャル",
-			contact: "お問い合わせ",
-			imprint: "運営情報",
-			legal: "法的情報"
+			socials: "СОЦСЕТИ",
+			contact: "КОНТАКТЫ",
+			imprint: "ИМПРЕССУМ",
+			legal: "ПРАВОВАЯ ИНФОРМАЦИЯ"
 		},
 		cookie: {
-			title: "クッキー設定",
-			intro: "Rayvenがクッキーや類似の技術をどのように使用しているかをご案内します。",
-			purposeTitle: "クッキーを使用する目的",
-			purpose: "クッキーとローカルストレージは、言語設定の保存とウェブサイトの安定した提供に使用されます。Rayvenはパーソナライズ広告には使用しません。",
-			dataTitle: "保存されるデータ",
-			data: "最後に選択した言語は、お使いのブラウザにローカル保存されます。ページを更新したり、後で再訪問したりしても設定が維持されます。この設定がRayvenに送信されることはありません。",
-			controlTitle: "設定の管理",
-			control: "保存されたウェブサイトデータは、ブラウザの設定からいつでも削除できます。別の言語を選択すると、新しい設定が自動的に適用されます。",
-			close: "閉じる"
+			title: "НАСТРОЙКИ COOKIE",
+			intro: "Здесь вы найдете информацию о том, как Rayven использует cookie и похожие технологии.",
+			purposeTitle: "ЗАЧЕМ МЫ ИСПОЛЬЗУЕМ COOKIE",
+			purpose: "Cookie и локальное хранилище помогают сохранять языковые настройки и обеспечивать надежную работу сайта. Rayven не использует их для персонализированной рекламы.",
+			dataTitle: "КАКИЕ ДАННЫЕ СОХРАНЯЮТСЯ",
+			data: "Последний выбранный язык сохраняется локально в браузере. Поэтому настройка сохраняется после обновления страницы и при следующем посещении. Эти данные не передаются Rayven.",
+			controlTitle: "ВАШ ВЫБОР",
+			control: "Сохраненные данные сайта можно удалить в настройках браузера. При выборе другого языка новая настройка применяется автоматически.",
+			close: "ЗАКРЫТЬ"
 		},
 		imprint: {
-			title: "運営情報",
-			provider: "ドイツ電気通信法第5条に基づく事業者情報",
-			city: "86316 フリートベルク",
-			contact: "お問い合わせ",
-			emailLabel: "メール:",
-			disclaimer: "免責事項",
-			disclaimerText: "このウェブサイトのコンテンツは、細心の注意を払って作成されています。ただし、内容の正確性、完全性、最新性を保証するものではありません。",
-			externalLinks: "外部リンク",
-			externalLinksText: "このウェブサイトには、当方が内容を管理できない第三者の外部サイトへのリンクが含まれています。リンク先の内容については、各サイトの提供者または運営者が責任を負います。",
-			copyright: "著作権",
-			copyrightText: "このウェブサイト上でサイト運営者が作成したコンテンツおよび作品は、ドイツの著作権法によって保護されています。著作権法の範囲を超える複製、編集、配布、その他の利用には、各著作者または制作者の書面による同意が必要です。"
+			title: "ИМПРЕССУМ",
+			provider: "СВЕДЕНИЯ СОГЛАСНО § 5 TMG",
+			city: "86316 ФРИДБЕРГ",
+			contact: "КОНТАКТЫ",
+			emailLabel: "ЭЛЕКТРОННАЯ ПОЧТА:",
+			disclaimer: "ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ",
+			disclaimerText: "Содержание этого сайта подготовлено с максимальной тщательностью. Однако мы не можем гарантировать точность, полноту и актуальность материалов.",
+			externalLinks: "ВНЕШНИЕ ССЫЛКИ",
+			externalLinksText: "Этот сайт содержит ссылки на внешние сайты третьих лиц, на содержание которых мы не влияем. Ответственность за материалы несет соответствующий поставщик или оператор сайта.",
+			copyright: "АВТОРСКОЕ ПРАВО",
+			copyrightText: "Материалы и произведения, созданные операторами сайта, защищены немецким законодательством об авторском праве. Их использование за пределами закона требует письменного согласия соответствующего автора или создателя."
 		},
 		about: {
-			breadcrumbHome: "ホーム",
-			breadcrumbCurrent: "概要",
-			eyebrow: "私たちについて",
-			title: "RAYVENについて",
-			lead: "Rayvenはアウクスブルク工科大学（TH Augsburg）のeスポーツチームです。大声を出さずに存在感を示すという一つの理念に情熱を注ぐ学生の集団です。",
-			storyTitle: "私たちの歩み",
-			storyText: "RayvenはTH Augsburgのeスポーツチームです。大学の学生自治会室で生まれ、小さな練習セッションから始まり、今では精密さと姿勢、明確なビジュアル表現を象徴するコミュニティへと成長しました。",
-			storyText2: "メンバーそれぞれが、初めてのランクマッチからTH Augsburgの名を掘けた大会まで、自分自身の物語を持っています。私たちを繋ぐのは、共に自分たちを超えていこうという志です。",
-			photoCaption1: "Valorant",
-			photoCaption2: "League",
-			valuesTitle: "私たちが大切にすること",
-			value1Title: "哲学",
-			value1Text: "声の大きさより明確さを。パフォーマンスと存在感で語ります。",
-			value2Title: "コミュニティ",
-			value2Text: "群れの強さは絆の強さ。オンでもオフでも共に成長します。",
-			value3Title: "未来",
-			value3Text: "一つの大会にとどまらないブランドを築いています。",
-			ctaTitle: "群れの一員になろう",
-			ctaText: "選手として、パートナーとして、あるいはファンとして。あなたの声をお待ちしています。"
+			breadcrumbHome: "ГЛАВНАЯ",
+			breadcrumbCurrent: "О НАС",
+			eyebrow: "КТО МЫ",
+			title: "О RAYVEN",
+			lead: "Rayven — киберспортивная команда Технического университета прикладных наук Аугсбурга (TH Augsburg), объединение студентов, преданных одной идее: быть заметными, не повышая голос.",
+			storyTitle: "НАША ИСТОРИЯ",
+			storyText: "Rayven — киберспортивная команда TH Augsburg. Из совместных тренировок в комнате студенческого совета выросло сообщество, которое сегодня представляет точность, характер и ясный визуальный голос.",
+			storyText2: "У каждого участника своя история: от первого рейтингового матча до турнира под именем TH Augsburg. Нас объединяет стремление вместе превзойти себя.",
+			photoCaption1: "CS2",
+			photoCaption2: "Dota 2",
+			valuesTitle: "ВО ЧТО МЫ ВЕРИМ",
+			value1Title: "ФИЛОСОФИЯ",
+			value1Text: "Ясность важнее громкости. Пусть говорят наши результаты и присутствие.",
+			value2Title: "СООБЩЕСТВО",
+			value2Text: "Стая сильна настолько, насколько крепка ее связь. Мы растем вместе онлайн и за его пределами.",
+			value3Title: "БУДУЩЕЕ",
+			value3Text: "Мы создаем бренд, который переживет отдельные турниры.",
+			ctaTitle: "СТАНЬ ЧАСТЬЮ СТАИ",
+			ctaText: "Игрок, партнер или болельщик — мы будем рады услышать вас."
 		}
 	}
 };
