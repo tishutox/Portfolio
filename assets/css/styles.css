@@ -28,7 +28,7 @@ html {
 body {
 	min-height: 100%;
 	margin: 0;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Noto Sans", sans-serif;
 	background: var(--bg);
 	color: var(--text);
 }
@@ -287,11 +287,21 @@ main {
 
 .eyebrow {
 	margin: 0;
-	font-family: "Zen Old Mincho", serif;
+	font-family: "Ponomar", serif;
 	font-size: clamp(2.4rem, 7vw, 6rem);
-	font-weight: 700;
+	font-weight: 400;
 	line-height: 1.2;
 	letter-spacing: 0.12em;
+}
+
+.hero-motto {
+	transform-origin: center;
+}
+
+html[lang="ru"] .hero-motto {
+	position: relative;
+	top: 4px;
+	transform: scaleY(0.83);
 }
 
 .mobile-language-block p {
