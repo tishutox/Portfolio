@@ -66,6 +66,20 @@ const translations = {
 			value3Text: "Wir bauen an einer Marke, die über einzelne Turniere hinaus Bestand hat.",
 			ctaTitle: "WERDE TEIL DES SCHWARMS",
 			ctaText: "Ob als Spieler, Partner oder Fan – wir freuen uns, von dir zu hören."
+		},
+		games: {
+			breadcrumbCurrent: "GAMES",
+			eyebrow: "WAS WIR SPIELEN",
+			title: "UNSERE GAMES",
+			lead: "Wir treten dort an, wo Präzision, Kommunikation und Haltung den Unterschied machen. Entdecke die Spiele, in denen Rayven gemeinsam wächst.",
+			card1Title: "DEAD BY DAYLIGHT",
+			card1Tag1: "HORROR",
+			card1Tag2: "SURVIVAL",
+			card1Tag3: "4 GEGEN 1",
+			card2Title: "RAINBOW SIX SIEGE",
+			card2Tag1: "FPS",
+			card2Tag2: "TAKTIK",
+			card2Tag3: "5 GEGEN 5"
 		}
 	},
 	en: {
@@ -135,75 +149,103 @@ const translations = {
 			value3Text: "We are building a brand that outlasts any single tournament.",
 			ctaTitle: "BECOME PART OF THE SWARM",
 			ctaText: "Whether as a player, partner, or fan, we would love to hear from you."
+		},
+		games: {
+			breadcrumbCurrent: "GAMES",
+			eyebrow: "WHAT WE PLAY",
+			title: "OUR GAMES",
+			lead: "We compete where precision, communication, and presence make the difference. Discover the games in which Rayven grows together.",
+			card1Title: "DEAD BY DAYLIGHT",
+			card1Tag1: "HORROR",
+			card1Tag2: "SURVIVAL",
+			card1Tag3: "4 VS 1",
+			card2Title: "RAINBOW SIX SIEGE",
+			card2Tag1: "FPS",
+			card2Tag2: "TACTICS",
+			card2Tag3: "5 VS 5"
 		}
 	},
-	ru: {
+	ro: {
 		nav: {
-			home: "ГЛАВНАЯ",
-			about: "О НАС",
-			team: "ИГРЫ",
-			events: "СОБЫТИЯ",
-			form: "ФОРМА"
+			home: "ACASĂ",
+			about: "DESPRE",
+			team: "JOCURI",
+			events: "EVENIMENTE",
+			form: "FORMULAR"
 		},
 		labels: {
-			language: "ЯЗЫК"
+			language: "LIMBĂ"
 		},
 		hero: {
-			motto: "ВОССТАНЬ",
+			motto: "RIDICĂ-TE",
 			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
-			copy: "Соревновательный фокус, ясная идентичность и сцена для команды, которой не нужно кричать, чтобы выделяться.",
-			cta: "УЗНАТЬ БОЛЬШЕ"
+			copy: "Focus competitiv, identitate clară și o scenă pentru o echipă care nu trebuie să strige pentru a ieși în evidență.",
+			cta: "AFLĂ MAI MULTE"
 		},
 		footer: {
-			socials: "СОЦСЕТИ",
-			contact: "КОНТАКТЫ",
-			imprint: "ИМПРЕССУМ",
-			legal: "ПРАВОВАЯ ИНФОРМАЦИЯ"
+			socials: "SOCIAL",
+			contact: "CONTACT",
+			imprint: "DATE LEGALE",
+			legal: "INFORMAȚII LEGALE"
 		},
 		cookie: {
-			title: "НАСТРОЙКИ COOKIE",
-			intro: "Здесь вы найдете информацию о том, как Rayven использует cookie и похожие технологии.",
-			purposeTitle: "ЗАЧЕМ МЫ ИСПОЛЬЗУЕМ COOKIE",
-			purpose: "Cookie и локальное хранилище помогают сохранять языковые настройки и обеспечивать надежную работу сайта. Rayven не использует их для персонализированной рекламы.",
-			dataTitle: "КАКИЕ ДАННЫЕ СОХРАНЯЮТСЯ",
-			data: "Последний выбранный язык сохраняется локально в браузере. Поэтому настройка сохраняется после обновления страницы и при следующем посещении. Эти данные не передаются Rayven.",
-			controlTitle: "ВАШ ВЫБОР",
-			control: "Сохраненные данные сайта можно удалить в настройках браузера. При выборе другого языка новая настройка применяется автоматически.",
-			close: "ЗАКРЫТЬ"
+			title: "SETĂRI COOKIE",
+			intro: "Aici găsești informații despre modul în care Rayven folosește cookie-uri și tehnologii similare.",
+			purposeTitle: "DE CE FOLOSIM COOKIE-URI",
+			purpose: "Cookie-urile și stocarea locală ne ajută să păstrăm preferința de limbă și să menținem site-ul funcțional. Rayven nu le folosește pentru publicitate personalizată.",
+			dataTitle: "CE DATE SUNT STOCATE",
+			data: "Ultima limbă selectată este stocată local în browser. Astfel, alegerea rămâne activă la reîmprospătarea paginii și la următoarea vizită. Această setare nu este transmisă către Rayven.",
+			controlTitle: "ALEGEREA TA",
+			control: "Poți șterge oricând datele stocate ale site-ului din setările browserului. Când alegi o altă limbă, noua preferință este aplicată automat.",
+			close: "ÎNCHIDE"
 		},
 		imprint: {
-			title: "ИМПРЕССУМ",
-			provider: "СВЕДЕНИЯ СОГЛАСНО § 5 TMG",
-			city: "86316 ФРИДБЕРГ",
-			contact: "КОНТАКТЫ",
-			emailLabel: "ЭЛЕКТРОННАЯ ПОЧТА:",
-			disclaimer: "ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ",
-			disclaimerText: "Содержание этого сайта подготовлено с максимальной тщательностью. Однако мы не можем гарантировать точность, полноту и актуальность материалов.",
-			externalLinks: "ВНЕШНИЕ ССЫЛКИ",
-			externalLinksText: "Этот сайт содержит ссылки на внешние сайты третьих лиц, на содержание которых мы не влияем. Ответственность за материалы несет соответствующий поставщик или оператор сайта.",
-			copyright: "АВТОРСКОЕ ПРАВО",
-			copyrightText: "Материалы и произведения, созданные операторами сайта, защищены немецким законодательством об авторском праве. Их использование за пределами закона требует письменного согласия соответствующего автора или создателя."
+			title: "DATE LEGALE",
+			provider: "INFORMAȚII CONFORM § 5 TMG",
+			city: "86316 FRIEDBERG",
+			contact: "CONTACT",
+			emailLabel: "E-MAIL:",
+			disclaimer: "DECLINAREA RĂSPUNDERII",
+			disclaimerText: "Conținutul acestui site a fost creat cu cea mai mare atenție. Totuși, nu putem garanta exactitatea, integralitatea sau actualitatea informațiilor.",
+			externalLinks: "LINKURI EXTERNE",
+			externalLinksText: "Acest site conține linkuri către site-uri externe ale unor terți, al căror conținut nu se află sub controlul nostru. Furnizorul sau operatorul fiecărui site conectat este responsabil pentru conținutul acestuia.",
+			copyright: "DREPTURI DE AUTOR",
+			copyrightText: "Conținutul și operele create de administratorii site-ului sunt protejate de legislația germană privind drepturile de autor. Reproducerea, prelucrarea, distribuirea și orice altă utilizare dincolo de limitele drepturilor de autor necesită acordul scris al autorului sau creatorului respectiv."
 		},
 		about: {
-			breadcrumbHome: "ГЛАВНАЯ",
-			breadcrumbCurrent: "О НАС",
-			eyebrow: "КТО МЫ",
-			title: "О RAYVEN",
-			lead: "Rayven — киберспортивная команда Технического университета прикладных наук Аугсбурга (TH Augsburg), объединение студентов, преданных одной идее: быть заметными, не повышая голос.",
-			storyTitle: "НАША ИСТОРИЯ",
-			storyText: "Rayven — киберспортивная команда TH Augsburg. Из совместных тренировок в комнате студенческого совета выросло сообщество, которое сегодня представляет точность, характер и ясный визуальный голос.",
-			storyText2: "У каждого участника своя история: от первого рейтингового матча до турнира под именем TH Augsburg. Нас объединяет стремление вместе превзойти себя.",
+			breadcrumbHome: "ACASĂ",
+			breadcrumbCurrent: "DESPRE",
+			eyebrow: "CINE SUNTEM",
+			title: "DESPRE RAYVEN",
+			lead: "Rayven este echipa de eSports a Universității de Științe Aplicate din Augsburg (TH Augsburg), un colectiv de studenți dedicați unei singure idei: să fim prezenți fără să fie nevoie să strigăm.",
+			storyTitle: "POVESTEA NOASTRĂ",
+			storyText: "Rayven este echipa de eSports a TH Augsburg. Din sesiunile comune de antrenament a crescut o comunitate care reprezintă astăzi precizia, atitudinea și o voce vizuală distinctă.",
+			storyText2: "Fiecare membru își aduce propria poveste, de la primul meci ranked până la turneele jucate în numele TH Augsburg. Ne unește ambiția de a evolua împreună și de a ne depăși limitele.",
 			photoCaption1: "CS2",
 			photoCaption2: "Dota 2",
-			valuesTitle: "ВО ЧТО МЫ ВЕРИМ",
-			value1Title: "ФИЛОСОФИЯ",
-			value1Text: "Ясность важнее громкости. Пусть говорят наши результаты и присутствие.",
-			value2Title: "СООБЩЕСТВО",
-			value2Text: "Стая сильна настолько, насколько крепка ее связь. Мы растем вместе онлайн и за его пределами.",
-			value3Title: "БУДУЩЕЕ",
-			value3Text: "Мы создаем бренд, который переживет отдельные турниры.",
-			ctaTitle: "СТАНЬ ЧАСТЬЮ СТАИ",
-			ctaText: "Игрок, партнер или болельщик — мы будем рады услышать вас."
+			valuesTitle: "ÎN CE CREDEM",
+			value1Title: "FILOSOFIE",
+			value1Text: "Claritatea înaintea volumului. Lăsăm performanța și prezența noastră să vorbească.",
+			value2Title: "COMUNITATE",
+			value2Text: "O echipă este la fel de puternică precum legătura dintre membrii săi. Creștem împreună, online și offline.",
+			value3Title: "VIITOR",
+			value3Text: "Construim un brand care va dăinui dincolo de orice turneu.",
+			ctaTitle: "DEVINO PARTE DIN ECHIPĂ",
+			ctaText: "Fie că ești jucător, partener sau fan, ne-ar face plăcere să aflăm de la tine."
+		},
+		games: {
+			breadcrumbCurrent: "JOCURI",
+			eyebrow: "CE JUCĂM",
+			title: "JOCURILE NOASTRE",
+			lead: "Concurăm acolo unde precizia, comunicarea și atitudinea fac diferența. Descoperă jocurile în care Rayven evoluează împreună.",
+			card1Title: "DEAD BY DAYLIGHT",
+			card1Tag1: "HORROR",
+			card1Tag2: "SUPRAVIEȚUIRE",
+			card1Tag3: "4 CONTRA 1",
+			card2Title: "RAINBOW SIX SIEGE",
+			card2Tag1: "FPS",
+			card2Tag2: "TACTICĂ",
+			card2Tag3: "5 CONTRA 5"
 		}
 	}
 };

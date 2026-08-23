@@ -298,12 +298,6 @@ main {
 	transform-origin: center;
 }
 
-html[lang="ru"] .hero-motto {
-	position: relative;
-	top: 4px;
-	transform: scaleY(0.83);
-}
-
 .mobile-language-block p {
 	margin: 0;
 	font-family: "Noto Sans JP", sans-serif;
@@ -1018,6 +1012,190 @@ body.page-about {
 	margin: 0;
 	color: rgba(255, 255, 255, 0.72);
 	line-height: 1.6;
+}
+
+body.page-games {
+	background: #000000;
+	color: var(--text-inverse);
+}
+
+.page-games .games-main {
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+.games-main {
+	height: auto;
+	background: #000000;
+}
+
+.games-hero {
+	padding: calc(var(--header-height) + 24px) 24px 58px;
+	background: #000000;
+}
+
+.games-hero-inner,
+.games-grid {
+	width: var(--content-width);
+	margin: 0 auto;
+}
+
+.games-hero-inner {
+	display: grid;
+	gap: 18px;
+}
+
+.games-hero .eyebrow {
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: clamp(0.95rem, 2vw, 1.15rem);
+	color: #de9b35;
+	letter-spacing: 0.3em;
+}
+
+.games-hero h1 {
+	margin: 0;
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: clamp(2.6rem, 7vw, 5rem);
+	line-height: 1.05;
+	letter-spacing: 0.02em;
+}
+
+.games-lead {
+	max-width: 640px;
+	margin: 0;
+	font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+	line-height: 1.5;
+	color: rgba(255, 255, 255, 0.78);
+}
+
+.games-showcase {
+	padding: 0 24px 88px;
+	background: #000000;
+}
+
+.games-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	grid-auto-rows: auto;
+	gap: 14px;
+}
+
+.game-card {
+	position: relative;
+	aspect-ratio: 16 / 9;
+	overflow: hidden;
+	display: flex;
+	align-items: flex-end;
+	padding: 24px;
+	background-color: #171717;
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.04) 15%, rgba(0, 0, 0, 0.88) 100%), var(--game-image);
+	background-position: center;
+	background-size: cover;
+	border: 0;
+	border-radius: 8px;
+}
+
+.game-card::after {
+	display: none;
+}
+
+.game-card-content {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+
+.game-card-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-bottom: 18px;
+}
+
+.game-card-tags span {
+	padding: 6px 10px;
+	border: 1px solid rgba(255, 255, 255, 0.34);
+	border-radius: 999px;
+	background: rgba(8, 8, 8, 0.42);
+	font-size: 0.66rem;
+	font-weight: 600;
+	letter-spacing: 0.12em;
+	color: rgba(255, 255, 255, 0.88);
+}
+
+.game-card-info {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.game-card-logo {
+	flex: 0 0 58px;
+	width: 58px;
+	height: 58px;
+	display: grid;
+	place-items: center;
+	overflow: hidden;
+	border: 0;
+	background: transparent;
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: 0.76rem;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: 0.08em;
+	text-align: center;
+	color: #ffffff;
+}
+
+.game-card-logo img {
+	display: block;
+	width: 45px;
+	height: 45px;
+	object-fit: contain;
+	filter: brightness(0) invert(1);
+}
+
+.game-card h2 {
+	margin: 0;
+	font-family: "Noto Sans JP", sans-serif;
+	font-size: clamp(1.2rem, 2.5vw, 2rem);
+	font-weight: 600;
+	line-height: 1.08;
+	letter-spacing: 0.02em;
+}
+
+@media (max-width: 680px) {
+	.games-hero,
+	.games-showcase {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.games-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.game-card {
+		aspect-ratio: 16 / 9;
+	}
+}
+
+@media (max-width: 480px) {
+	.games-hero {
+		padding-top: calc(var(--header-height) + 20px);
+	}
+
+	.games-showcase {
+		padding-bottom: 56px;
+	}
+
+	.games-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.game-card {
+		padding: 20px;
+	}
 }
 
 @media (max-width: 860px) {
