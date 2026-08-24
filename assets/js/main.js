@@ -55,8 +55,8 @@ const translations = {
 			storyTitle: "UNSERE GESCHICHTE",
 			storyText: "Rayven ist das eSports-Team der Technischen Hochschule Augsburg. Entstanden im Fachschaftsraum der TH, hat sich aus gemeinsamen Trainingssessions eine Gemeinschaft entwickelt, die für Präzision, Haltung und einen klaren visuellen Ausdruck steht.",
 			storyText2: "Jedes Mitglied bringt seine eigene Geschichte mit – vom ersten Ranked-Match bis zum Turnier im Namen der TH Augsburg. Was uns verbindet, ist der Anspruch, gemeinsam über uns hinauszuwachsen.",
-			photoCaption1: "CS2",
-			photoCaption2: "Dota 2",
+			photoCaption1: "Zero Two",
+			photoCaption2: "Rebecca",
 			valuesTitle: "WORAN WIR GLAUBEN",
 			value1Title: "PHILOSOPHIE",
 			value1Text: "Klarheit vor Lautstärke. Wir lassen unsere Leistung und unser Auftreten sprechen.",
@@ -79,7 +79,11 @@ const translations = {
 			card2Title: "KILLER INN",
 			card2Tag1: "MYSTERY",
 			card2Tag2: "ACTION",
-			card2Tag3: "DEDUCTION"
+			card2Tag3: "DEDUCTION",
+			card3Title: "FINAL FANTASY XIV",
+			card3Tag1: "MMORPG",
+			card3Tag2: "PVE",
+			card3Tag3: "RAIDS"
 		}
 	},
 	en: {
@@ -138,8 +142,8 @@ const translations = {
 			storyTitle: "OUR STORY",
 			storyText: "Rayven is the esports team of TH Augsburg. Born in the student council room of the university, small training sessions grew into a community that now stands for precision, posture, and a clear visual voice.",
 			storyText2: "Every member brings their own story, from their first ranked match to tournaments played in the name of TH Augsburg. What connects us is the ambition to grow beyond ourselves, together.",
-			photoCaption1: "CS2",
-			photoCaption2: "Dota 2",
+			photoCaption1: "Zero Two",
+			photoCaption2: "Rebecca",
 			valuesTitle: "WHAT WE BELIEVE IN",
 			value1Title: "PHILOSOPHY",
 			value1Text: "Clarity over volume. We let our performance and our presence speak.",
@@ -162,7 +166,11 @@ const translations = {
 			card2Title: "KILLER INN",
 			card2Tag1: "MYSTERY",
 			card2Tag2: "ACTION",
-			card2Tag3: "DEDUCTION"
+			card2Tag3: "DEDUCTION",
+			card3Title: "FINAL FANTASY XIV",
+			card3Tag1: "MMORPG",
+			card3Tag2: "PVE",
+			card3Tag3: "RAIDS"
 		}
 	},
 	ja: {
@@ -221,8 +229,8 @@ const translations = {
 			storyTitle: "私たちの歩み",
 			storyText: "Rayvenはアウクスブルク応用科学大学のeスポーツチームです。大学の学生会室で始まった練習会は、精度、姿勢、そして明確なビジュアル表現を大切にするコミュニティへと成長しました。",
 			storyText2: "初めてのランク戦から大学を代表する大会まで、メンバーはそれぞれの物語を持っています。私たちをつなぐのは、ともに限界を超えて成長する意志です。",
-			photoCaption1: "CS2",
-			photoCaption2: "Dota 2",
+			photoCaption1: "Zero Two",
+			photoCaption2: "Rebecca",
 			valuesTitle: "私たちの信念",
 			value1Title: "哲学",
 			value1Text: "声の大きさより、明確さを。パフォーマンスと存在感で語ります。",
@@ -245,7 +253,11 @@ const translations = {
 			card2Title: "KILLER INN",
 			card2Tag1: "ミステリー",
 			card2Tag2: "アクション",
-			card2Tag3: "推理"
+			card2Tag3: "推理",
+			card3Title: "FINAL FANTASY XIV",
+			card3Tag1: "MMORPG",
+			card3Tag2: "PVE",
+			card3Tag3: "レイド"
 		}
 	}
 };
