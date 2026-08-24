@@ -72,14 +72,14 @@ const translations = {
 			eyebrow: "WAS WIR SPIELEN",
 			title: "UNSERE GAMES",
 			lead: "Wir treten dort an, wo Präzision, Kommunikation und Haltung den Unterschied machen. Entdecke die Spiele, in denen Rayven gemeinsam wächst.",
-			card1Title: "DEAD BY DAYLIGHT",
-			card1Tag1: "HORROR",
-			card1Tag2: "SURVIVAL",
-			card1Tag3: "4 GEGEN 1",
-			card2Title: "RAINBOW SIX SIEGE",
-			card2Tag1: "FPS",
-			card2Tag2: "TAKTIK",
-			card2Tag3: "5 GEGEN 5"
+			card1Title: "VALORANT",
+			card1Tag1: "FPS",
+			card1Tag2: "TAKTIK",
+			card1Tag3: "5 GEGEN 5",
+			card2Title: "KILLER INN",
+			card2Tag1: "MYSTERY",
+			card2Tag2: "ACTION",
+			card2Tag3: "DEDUCTION"
 		}
 	},
 	en: {
@@ -155,97 +155,97 @@ const translations = {
 			eyebrow: "WHAT WE PLAY",
 			title: "OUR GAMES",
 			lead: "We compete where precision, communication, and presence make the difference. Discover the games in which Rayven grows together.",
-			card1Title: "DEAD BY DAYLIGHT",
-			card1Tag1: "HORROR",
-			card1Tag2: "SURVIVAL",
-			card1Tag3: "4 VS 1",
-			card2Title: "RAINBOW SIX SIEGE",
-			card2Tag1: "FPS",
-			card2Tag2: "TACTICS",
-			card2Tag3: "5 VS 5"
+			card1Title: "VALORANT",
+			card1Tag1: "FPS",
+			card1Tag2: "TACTICS",
+			card1Tag3: "5 VS 5",
+			card2Title: "KILLER INN",
+			card2Tag1: "MYSTERY",
+			card2Tag2: "ACTION",
+			card2Tag3: "DEDUCTION"
 		}
 	},
-	ro: {
+	ja: {
 		nav: {
-			home: "ACASĂ",
-			about: "DESPRE",
-			team: "JOCURI",
-			events: "EVENIMENTE",
-			form: "FORMULAR"
+			home: "ホーム",
+			about: "概要",
+			team: "ゲーム",
+			events: "イベント",
+			form: "フォーム"
 		},
 		labels: {
-			language: "LIMBĂ"
+			language: "言語"
 		},
 		hero: {
-			motto: "RIDICĂ-TE",
-			title: "ENTER THE FIGHT WITH PRECISION AND PRESENCE",
-			copy: "Focus competitiv, identitate clară și o scenă pentru o echipă care nu trebuie să strige pentru a ieși în evidență.",
-			cta: "AFLĂ MAI MULTE"
+			motto: "立ち上がれ",
+			title: "精度と存在感を胸に、戦いへ",
+			copy: "確かな競技への集中力、揺るぎない個性、そして声を張らずとも際立つチームの舞台。",
+			cta: "詳しく見る"
 		},
 		footer: {
-			socials: "SOCIAL",
-			contact: "CONTACT",
-			imprint: "DATE LEGALE",
-			legal: "INFORMAȚII LEGALE"
+			socials: "ソーシャル",
+			contact: "お問い合わせ",
+			imprint: "運営者情報",
+			legal: "法的情報"
 		},
 		cookie: {
-			title: "SETĂRI COOKIE",
-			intro: "Aici găsești informații despre modul în care Rayven folosește cookie-uri și tehnologii similare.",
-			purposeTitle: "DE CE FOLOSIM COOKIE-URI",
-			purpose: "Cookie-urile și stocarea locală ne ajută să păstrăm preferința de limbă și să menținem site-ul funcțional. Rayven nu le folosește pentru publicitate personalizată.",
-			dataTitle: "CE DATE SUNT STOCATE",
-			data: "Ultima limbă selectată este stocată local în browser. Astfel, alegerea rămâne activă la reîmprospătarea paginii și la următoarea vizită. Această setare nu este transmisă către Rayven.",
-			controlTitle: "ALEGEREA TA",
-			control: "Poți șterge oricând datele stocate ale site-ului din setările browserului. Când alegi o altă limbă, noua preferință este aplicată automat.",
-			close: "ÎNCHIDE"
+			title: "Cookie設定",
+			intro: "RayvenによるCookieおよび類似技術の利用について説明します。",
+			purposeTitle: "Cookieを使用する理由",
+			purpose: "Cookieとローカルストレージは、言語設定の保存とウェブサイトの安定した提供に役立ちます。Rayvenがパーソナライズ広告に使用することはありません。",
+			dataTitle: "保存されるデータ",
+			data: "最後に選択した言語がブラウザに保存されます。ページを更新したり、後で再訪問したりしても設定が維持されます。この設定がRayvenに送信されることはありません。",
+			controlTitle: "あなたの選択",
+			control: "保存されたウェブサイトデータは、ブラウザの設定からいつでも削除できます。別の言語を選ぶと、新しい設定が自動的に適用されます。",
+			close: "閉じる"
 		},
 		imprint: {
-			title: "DATE LEGALE",
-			provider: "INFORMAȚII CONFORM § 5 TMG",
-			city: "86316 FRIEDBERG",
-			contact: "CONTACT",
-			emailLabel: "E-MAIL:",
-			disclaimer: "DECLINAREA RĂSPUNDERII",
-			disclaimerText: "Conținutul acestui site a fost creat cu cea mai mare atenție. Totuși, nu putem garanta exactitatea, integralitatea sau actualitatea informațiilor.",
-			externalLinks: "LINKURI EXTERNE",
-			externalLinksText: "Acest site conține linkuri către site-uri externe ale unor terți, al căror conținut nu se află sub controlul nostru. Furnizorul sau operatorul fiecărui site conectat este responsabil pentru conținutul acestuia.",
-			copyright: "DREPTURI DE AUTOR",
-			copyrightText: "Conținutul și operele create de administratorii site-ului sunt protejate de legislația germană privind drepturile de autor. Reproducerea, prelucrarea, distribuirea și orice altă utilizare dincolo de limitele drepturilor de autor necesită acordul scris al autorului sau creatorului respectiv."
+			title: "運営者情報",
+			provider: "ドイツ電気通信法第5条に基づく情報",
+			city: "86316 フリートベルク",
+			contact: "お問い合わせ",
+			emailLabel: "メール:",
+			disclaimer: "免責事項",
+			disclaimerText: "このウェブサイトの内容は細心の注意を払って作成されています。ただし、内容の正確性、完全性、最新性を保証するものではありません。",
+			externalLinks: "外部リンク",
+			externalLinksText: "このウェブサイトには、当方が内容を管理できない第三者の外部サイトへのリンクが含まれています。リンク先の内容については、各運営者が責任を負います。",
+			copyright: "著作権",
+			copyrightText: "このウェブサイトの運営者が作成した内容および著作物は、ドイツの著作権法により保護されています。著作権法の範囲を超える複製、編集、配布、その他の利用には、著作者または制作者の書面による同意が必要です。"
 		},
 		about: {
-			breadcrumbHome: "ACASĂ",
-			breadcrumbCurrent: "DESPRE",
-			eyebrow: "CINE SUNTEM",
-			title: "DESPRE RAYVEN",
-			lead: "Rayven este echipa de eSports a Universității de Științe Aplicate din Augsburg (TH Augsburg), un colectiv de studenți dedicați unei singure idei: să fim prezenți fără să fie nevoie să strigăm.",
-			storyTitle: "POVESTEA NOASTRĂ",
-			storyText: "Rayven este echipa de eSports a TH Augsburg. Din sesiunile comune de antrenament a crescut o comunitate care reprezintă astăzi precizia, atitudinea și o voce vizuală distinctă.",
-			storyText2: "Fiecare membru își aduce propria poveste, de la primul meci ranked până la turneele jucate în numele TH Augsburg. Ne unește ambiția de a evolua împreună și de a ne depăși limitele.",
+			breadcrumbHome: "ホーム",
+			breadcrumbCurrent: "概要",
+			eyebrow: "私たちについて",
+			title: "RAYVENについて",
+			lead: "Rayvenはアウクスブルク応用科学大学のeスポーツチームです。声を張らずとも存在感を示すという理念を掲げる、学生たちのコミュニティです。",
+			storyTitle: "私たちの歩み",
+			storyText: "Rayvenはアウクスブルク応用科学大学のeスポーツチームです。大学の学生会室で始まった練習会は、精度、姿勢、そして明確なビジュアル表現を大切にするコミュニティへと成長しました。",
+			storyText2: "初めてのランク戦から大学を代表する大会まで、メンバーはそれぞれの物語を持っています。私たちをつなぐのは、ともに限界を超えて成長する意志です。",
 			photoCaption1: "CS2",
 			photoCaption2: "Dota 2",
-			valuesTitle: "ÎN CE CREDEM",
-			value1Title: "FILOSOFIE",
-			value1Text: "Claritatea înaintea volumului. Lăsăm performanța și prezența noastră să vorbească.",
-			value2Title: "COMUNITATE",
-			value2Text: "O echipă este la fel de puternică precum legătura dintre membrii săi. Creștem împreună, online și offline.",
-			value3Title: "VIITOR",
-			value3Text: "Construim un brand care va dăinui dincolo de orice turneu.",
-			ctaTitle: "DEVINO PARTE DIN ECHIPĂ",
-			ctaText: "Fie că ești jucător, partener sau fan, ne-ar face plăcere să aflăm de la tine."
+			valuesTitle: "私たちの信念",
+			value1Title: "哲学",
+			value1Text: "声の大きさより、明確さを。パフォーマンスと存在感で語ります。",
+			value2Title: "コミュニティ",
+			value2Text: "チームの強さは、つながりの強さです。オンラインでもオフラインでも、ともに成長します。",
+			value3Title: "未来",
+			value3Text: "ひとつの大会を超えて残るブランドを築いています。",
+			ctaTitle: "チームの一員になる",
+			ctaText: "選手、パートナー、ファンとして、ぜひあなたの声を聞かせてください。"
 		},
 		games: {
-			breadcrumbCurrent: "JOCURI",
-			eyebrow: "CE JUCĂM",
-			title: "JOCURILE NOASTRE",
-			lead: "Concurăm acolo unde precizia, comunicarea și atitudinea fac diferența. Descoperă jocurile în care Rayven evoluează împreună.",
-			card1Title: "DEAD BY DAYLIGHT",
-			card1Tag1: "HORROR",
-			card1Tag2: "SUPRAVIEȚUIRE",
-			card1Tag3: "4 CONTRA 1",
-			card2Title: "RAINBOW SIX SIEGE",
-			card2Tag1: "FPS",
-			card2Tag2: "TACTICĂ",
-			card2Tag3: "5 CONTRA 5"
+			breadcrumbCurrent: "ゲーム",
+			eyebrow: "プレイするゲーム",
+			title: "私たちのゲーム",
+			lead: "精度、コミュニケーション、そして存在感が勝敗を分ける場所で戦います。Rayvenがともに成長するゲームをご覧ください。",
+			card1Title: "VALORANT",
+			card1Tag1: "FPS",
+			card1Tag2: "戦術",
+			card1Tag3: "5対5",
+			card2Title: "KILLER INN",
+			card2Tag1: "ミステリー",
+			card2Tag2: "アクション",
+			card2Tag3: "推理"
 		}
 	}
 };
@@ -287,7 +287,7 @@ const applyTranslations = (language) => {
 		}
 	});
 
-	currentLanguage.textContent = language.toUpperCase();
+	currentLanguage.textContent = language === "ja" ? "JP" : language.toUpperCase();
 
 	languageButtons.forEach((button) => {
 		button.classList.toggle("is-active", button.dataset.language === language);

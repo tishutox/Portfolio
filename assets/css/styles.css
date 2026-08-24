@@ -1154,6 +1154,16 @@ body.page-games {
 	filter: brightness(0) invert(1);
 }
 
+.game-card-logo.valorant-logo img {
+	width: 56px;
+	height: 34px;
+}
+
+.game-card-logo.killer-inn-logo img {
+	width: 40px;
+	height: 42px;
+}
+
 .game-card h2 {
 	margin: 0;
 	font-family: "Noto Sans JP", sans-serif;
