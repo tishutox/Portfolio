@@ -1,4 +1,4 @@
-:root {
+﻿:root {
 	--bg: #f3ede2;
 	--surface: rgba(255, 255, 255, 0.92);
 	--surface-strong: #ffffff;
@@ -29,7 +29,7 @@ html {
 body {
 	min-height: 100%;
 	margin: 0;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	background: var(--bg);
 	color: var(--text);
 }
@@ -120,7 +120,7 @@ main {
 .language-menu button,
 	.mobile-language-actions button,
 	.menu-toggle {
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	letter-spacing: 0.08em;
 }
 
@@ -291,7 +291,7 @@ main {
 
 .eyebrow {
 	margin: 0;
-	font-family: "Ponomar", serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(2.4rem, 7vw, 6rem);
 	font-weight: 400;
 	line-height: 1.2;
@@ -299,12 +299,13 @@ main {
 }
 
 .hero-motto {
+	font-family: "Hachi Maru Pop", cursive;
 	transform-origin: center;
 }
 
 .mobile-language-block p {
 	margin: 0;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: 0.9rem;
 	letter-spacing: 0.24em;
 }
@@ -312,7 +313,7 @@ main {
 .hero h1 {
 	margin: 0;
 	max-width: 10ch;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(4rem, 12vw, 8.5rem);
 	line-height: 0.88;
 	letter-spacing: 0.02em;
@@ -428,7 +429,7 @@ main {
 	border-radius: 8px;
 	background: #000000;
 	color: var(--text-inverse);
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	box-shadow: inset 0 4px 0 0 #FFFFFF, 0 24px 70px rgba(0, 0, 0, 0.28);
 	transform: translateY(18px);
 	transition: transform var(--transition);
@@ -768,7 +769,7 @@ body.page-about {
 .page-about .about-story,
 .page-about .about-cta,
 .page-about .about-main {
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 }
 
 .about-main {
@@ -809,7 +810,7 @@ body.page-about {
 }
 
 .about-hero .eyebrow {
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(0.95rem, 2vw, 1.15rem);
 	color: var(--anime-accent);
 	letter-spacing: 0.3em;
@@ -818,7 +819,7 @@ body.page-about {
 
 .about-hero h1 {
 	margin: 0;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(2.6rem, 7vw, 5rem);
 	line-height: 1.05;
 	letter-spacing: 0.02em;
@@ -895,7 +896,7 @@ body.page-about {
 
 .photo-frame figcaption {
 	margin-top: 14px;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: 0.92rem;
 	letter-spacing: 0.04em;
 	line-height: 1.4;
@@ -986,7 +987,7 @@ body.page-about {
 
 .about-story-text h2 {
 	margin: 0 0 18px;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(1.8rem, 3vw, 2.4rem);
 	letter-spacing: 0.04em;
 }
@@ -1014,7 +1015,7 @@ body.page-about {
 
 .about-cta h2 {
 	margin: 0;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(1.8rem, 4vw, 2.6rem);
 }
 
@@ -1031,7 +1032,7 @@ body.page-games {
 }
 
 .page-games .games-main {
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 }
 
 .games-main {
@@ -1056,7 +1057,7 @@ body.page-games {
 }
 
 .games-hero .eyebrow {
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(0.95rem, 2vw, 1.15rem);
 	color: var(--anime-accent);
 	letter-spacing: 0.3em;
@@ -1065,7 +1066,7 @@ body.page-games {
 
 .games-hero h1 {
 	margin: 0;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(2.6rem, 7vw, 5rem);
 	line-height: 1.05;
 	letter-spacing: 0.02em;
@@ -1150,7 +1151,7 @@ body.page-games {
 	overflow: hidden;
 	border: 0;
 	background: transparent;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: 0.76rem;
 	font-weight: 700;
 	line-height: 1;
@@ -1167,19 +1168,9 @@ body.page-games {
 	filter: brightness(0) invert(1);
 }
 
-.game-card-logo.valorant-logo img {
-	width: 56px;
-	height: 34px;
-}
-
-.game-card-logo.killer-inn-logo img {
-	width: 40px;
-	height: 42px;
-}
-
 .game-card h2 {
 	margin: 0;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: "Zen Maru Gothic", sans-serif;
 	font-size: clamp(1.2rem, 2.5vw, 2rem);
 	font-weight: 600;
 	line-height: 1.08;
@@ -1257,3 +1248,4 @@ body.page-games {
 		width: min(280px, 76vw);
 	}
 }
+
