@@ -83,7 +83,11 @@ const translations = {
 			card3Title: "FINAL FANTASY XIV",
 			card3Tag1: "MMORPG",
 			card3Tag2: "PVE",
-			card3Tag3: "RAIDS"
+			card3Tag3: "RAIDS",
+			card4Title: "SILVER PALACE",
+			card4Tag1: "HORROR",
+			card4Tag2: "STORY",
+			card4Tag3: "SINGLEPLAYER"
 		}
 	},
 	en: {
@@ -170,7 +174,11 @@ const translations = {
 			card3Title: "FINAL FANTASY XIV",
 			card3Tag1: "MMORPG",
 			card3Tag2: "PVE",
-			card3Tag3: "RAIDS"
+			card3Tag3: "RAIDS",
+			card4Title: "SILVER PALACE",
+			card4Tag1: "HORROR",
+			card4Tag2: "STORY",
+			card4Tag3: "SINGLEPLAYER"
 		}
 	},
 	ja: {
@@ -257,7 +265,11 @@ const translations = {
 			card3Title: "FINAL FANTASY XIV",
 			card3Tag1: "MMORPG",
 			card3Tag2: "PVE",
-			card3Tag3: "レイド"
+			card3Tag3: "レイド",
+			card4Title: "SILVER PALACE",
+			card4Tag1: "ホラー",
+			card4Tag2: "物語",
+			card4Tag3: "シングルプレイ"
 		}
 	}
 };
