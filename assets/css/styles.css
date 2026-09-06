@@ -29,7 +29,7 @@ html {
 body {
 	min-height: 100%;
 	margin: 0;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	background: var(--bg);
 	color: var(--text);
 }
@@ -97,6 +97,7 @@ main {
 	width: 42px;
 	height: 42px;
 	align-items: center;
+	font-weight: 700; /* Set font weight to bold for language buttons */
 	justify-content: center;
 	color: currentColor;
 		position: relative;
@@ -107,7 +108,7 @@ main {
 	align-items: center;
 }
 
-.header-branding {
+	font-weight: 700; /* Set font weight to bold for language trigger */
 	display: flex;
 	align-items: center;
 	gap: 14px;
@@ -116,11 +117,11 @@ main {
 .footer-nav a,
 .mobile-nav a,
 .hero-cta,
-.language-trigger,
+	stroke-width: 2; /* Adjusted stroke width */
 .language-menu button,
 	.mobile-language-actions button,
 	.menu-toggle {
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	letter-spacing: 0.08em;
 }
 
@@ -191,14 +192,16 @@ main {
 	min-height: 42px;
 	padding: 0 4px 0 12px;
 	border-radius: 8px;
+	font-weight: 700;
 	color: inherit;
 	background: transparent;
 	transition: color var(--transition);
 }
 
 .language-trigger svg {
-	width: 18px;
-	height: 18px;
+	width: 20px;
+	height: 20px;
+	stroke-width: 2;
 	transition: transform var(--transition);
 }
 
@@ -235,6 +238,7 @@ main {
 	min-height: 42px;
 	padding: 0 14px;
 	border-radius: 8px;
+	font-weight: 700;
 	color: var(--text);
 	text-align: center;
 	transition: background-color var(--transition), color var(--transition);
@@ -291,7 +295,7 @@ main {
 
 .eyebrow {
 	margin: 0;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(2.4rem, 7vw, 6rem);
 	font-weight: 400;
 	line-height: 1.2;
@@ -299,13 +303,13 @@ main {
 }
 
 .hero-motto {
-	font-family: "Hachi Maru Pop", cursive;
+	font-family: "Podkova", serif;
 	transform-origin: center;
 }
 
 .mobile-language-block p {
 	margin: 0;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: 0.9rem;
 	letter-spacing: 0.24em;
 }
@@ -313,7 +317,7 @@ main {
 .hero h1 {
 	margin: 0;
 	max-width: 10ch;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(4rem, 12vw, 8.5rem);
 	line-height: 0.88;
 	letter-spacing: 0.02em;
@@ -429,7 +433,7 @@ main {
 	border-radius: 8px;
 	background: #000000;
 	color: var(--text-inverse);
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	box-shadow: inset 0 4px 0 0 #FFFFFF, 0 24px 70px rgba(0, 0, 0, 0.28);
 	transform: translateY(18px);
 	transition: transform var(--transition);
@@ -769,7 +773,7 @@ body.page-about {
 .page-about .about-story,
 .page-about .about-cta,
 .page-about .about-main {
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 }
 
 .about-main {
@@ -828,7 +832,7 @@ body.page-about {
 }
 
 .about-hero .eyebrow {
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(0.95rem, 2vw, 1.15rem);
 	color: var(--anime-accent);
 	letter-spacing: 0.3em;
@@ -837,7 +841,7 @@ body.page-about {
 
 .about-hero h1 {
 	margin: 0;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(2.6rem, 7vw, 5rem);
 	line-height: 1.05;
 	letter-spacing: 0.02em;
@@ -914,7 +918,7 @@ body.page-about {
 
 .photo-frame figcaption {
 	margin-top: 14px;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: 0.92rem;
 	letter-spacing: 0.04em;
 	line-height: 1.4;
@@ -1018,7 +1022,7 @@ body.page-about {
 
 .about-story-text h2 {
 	margin: 0 0 18px;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(1.8rem, 3vw, 2.4rem);
 	letter-spacing: 0.04em;
 }
@@ -1046,7 +1050,7 @@ body.page-about {
 
 .about-cta h2 {
 	margin: 0;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(1.8rem, 4vw, 2.6rem);
 }
 
@@ -1063,7 +1067,7 @@ body.page-games {
 }
 
 .page-games .games-main {
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 }
 
 .games-main {
@@ -1088,7 +1092,7 @@ body.page-games {
 }
 
 .games-hero .eyebrow {
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(0.95rem, 2vw, 1.15rem);
 	color: var(--anime-accent);
 	letter-spacing: 0.3em;
@@ -1097,7 +1101,7 @@ body.page-games {
 
 .games-hero h1 {
 	margin: 0;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(2.6rem, 7vw, 5rem);
 	line-height: 1.05;
 	letter-spacing: 0.02em;
@@ -1187,7 +1191,7 @@ body.page-games {
 	overflow: hidden;
 	border: 0;
 	background: transparent;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: 0.76rem;
 	font-weight: 700;
 	line-height: 1;
@@ -1206,7 +1210,7 @@ body.page-games {
 
 .game-card h2 {
 	margin: 0;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(1.2rem, 2.5vw, 2rem);
 	font-weight: 600;
 	line-height: 1.08;
@@ -1295,7 +1299,7 @@ body.page-game-detail {
 
 .page-game-detail .game-detail-main {
 	height: auto;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	background: #000000;
 }
 
@@ -1325,7 +1329,7 @@ body.page-game-detail {
 
 .game-subtitle {
 	margin: 0;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(1.1rem, 2vw, 1.4rem);
 	font-weight: 500;
 	letter-spacing: 0.04em;
@@ -1350,7 +1354,7 @@ body.page-game-detail {
 	position: relative;
 	margin: 0 0 22px;
 	padding-left: 20px;
-	font-family: "Zen Maru Gothic", sans-serif;
+	font-family: "Sofia Sans", sans-serif;
 	font-size: clamp(1.6rem, 3vw, 2.2rem);
 	letter-spacing: 0.04em;
 }
