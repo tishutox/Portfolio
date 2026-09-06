@@ -55,7 +55,7 @@ const translations = {
 			storyTitle: "UNSERE GESCHICHTE",
 			storyText: "Rayven ist das eSports-Team der Technischen Hochschule Augsburg. Entstanden im Fachschaftsraum der TH, hat sich aus gemeinsamen Trainingssessions eine Gemeinschaft entwickelt, die für Präzision, Haltung und einen klaren visuellen Ausdruck steht.",
 			storyText2: "Jedes Mitglied bringt seine eigene Geschichte mit – vom ersten Ranked-Match bis zum Turnier im Namen der TH Augsburg. Was uns verbindet, ist der Anspruch, gemeinsam über uns hinauszuwachsen.",
-			photoCaption1: "Zero Two",
+			photoCaption1: "Tishu",
 			photoCaption2: "Rebecca",
 			valuesTitle: "WORAN WIR GLAUBEN",
 			value1Title: "PHILOSOPHIE",
@@ -199,7 +199,7 @@ const translations = {
 			storyTitle: "OUR STORY",
 			storyText: "Rayven is the esports team of TH Augsburg. Born in the student council room of the university, small training sessions grew into a community that now stands for precision, posture, and a clear visual voice.",
 			storyText2: "Every member brings their own story, from their first ranked match to tournaments played in the name of TH Augsburg. What connects us is the ambition to grow beyond ourselves, together.",
-			photoCaption1: "Zero Two",
+			photoCaption1: "Tishu",
 			photoCaption2: "Rebecca",
 			valuesTitle: "WHAT WE BELIEVE IN",
 			value1Title: "PHILOSOPHY",
@@ -343,7 +343,7 @@ const translations = {
 			storyTitle: "私たちの歩み",
 			storyText: "Rayvenはアウクスブルク応用科学大学のeスポーツチームです。大学の学生会室で始まった練習会は、精度、姿勢、そして明確なビジュアル表現を大切にするコミュニティへと成長しました。",
 			storyText2: "初めてのランク戦から大学を代表する大会まで、メンバーはそれぞれの物語を持っています。私たちをつなぐのは、ともに限界を超えて成長する意志です。",
-			photoCaption1: "Zero Two",
+			photoCaption1: "Tishu",
 			photoCaption2: "Rebecca",
 			valuesTitle: "私たちの信念",
 			value1Title: "哲学",
@@ -517,7 +517,19 @@ const setImageModalState = (isOpen, trigger = null) => {
 		const caption = trigger.querySelector("figcaption");
 		imagePreview.src = image.src;
 		imagePreview.alt = image.alt;
-		imageCaption.textContent = caption.textContent;
+		imageCaption.textContent = "";
+		imageCaption.append(document.createTextNode(`${caption.textContent} (`));
+		if (trigger.dataset.imageCredit) {
+			const creditLink = document.createElement("a");
+			creditLink.href = trigger.dataset.imageCredit;
+			creditLink.target = "_blank";
+			creditLink.rel = "noopener noreferrer";
+			creditLink.textContent = "credit";
+			imageCaption.append(creditLink);
+		} else {
+			imageCaption.append(document.createTextNode("credit"));
+		}
+		imageCaption.append(document.createTextNode(")"));
 		imageModal.classList.add("is-open");
 		imageModal.setAttribute("aria-hidden", "false");
 		imageClose.focus();

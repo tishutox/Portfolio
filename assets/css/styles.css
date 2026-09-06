@@ -957,6 +957,19 @@ body.page-about {
 	letter-spacing: 0.08em;
 }
 
+.image-modal-caption a {
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	transition: color var(--transition), text-shadow var(--transition);
+}
+
+.image-modal-caption a:hover,
+.image-modal-caption a:focus-visible {
+	color: #9fd6ff;
+	text-shadow: 0 0 14px rgba(159, 214, 255, 0.72);
+}
+
 .image-modal-close {
 	position: absolute;
 	top: -18px;
